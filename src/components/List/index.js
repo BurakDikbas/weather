@@ -8,7 +8,7 @@ function List(){
     console.log(weather);
 	return (
 		<div>
-			<pre>{JSON.stringify(weather?.city, null, 2)}</pre>
+		
 
 			<div className={styles.listContainer}>
 				{weather?.list.map((day, index) => (
